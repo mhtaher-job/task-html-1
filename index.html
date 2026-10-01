@@ -9,12 +9,12 @@
     <header>
       <h1>صفحه شخصی من</h1>
       <ul>
-        <li|><a href="">خانه</a> | <a href="#a">درباه من</a> | <a href="#my skills">مهارت‌ها</a> | <a href="#My favorite">آهنگ‌های مورد علاقه</a> | <a href="#Contact Me">تماس با من</a></li>
+        <li|><a href="">خانه</a> | <a href="#About Me">درباه من</a> | <a href="#my skills">مهارت‌ها</a> | <a href="#My-favorite-media">آهنگ‌های مورد علاقه</a> | <a href="#Contact-Me">تماس با من</a></li>
       </ul>
     </header>
     <hr>
     <main>
-      <section id="a">  
+      <section id="About Me">  
       <h2>درباره من</h2>
         سلام من محمد هستم. در حال یاد گیری فرانت اند. <br>ورزش مورد علاقه من فوتبال در حال حاضر توی تیمی در سطح یک تهران مشغول بازی هستم</p>
         <img src="assets/img/makishima.jpg" alt="makishima" height="300 px"> 
@@ -28,37 +28,35 @@
         <li>تسلط بر نرم‌افزارهای ind , ill</li>
         </ul>
        </section>
-       <section id="My favorite">
+       <section id="My-favorite-media">
         <h2>ویدیو و آهنگ مورد علاقه من</h2>
         <div><video src="assets/video/802af2389f9bfede7aaecab18ee09bc836048205-240p.mp4" controls width="250 px"></video></div>
         <div><audio src="assets/audio/Phasesyndicate-Cottonmouth-Charlie - Phasesyndicate-Cottonmouth-Charlie - 320.mp3" controls></audio></div>
        </section>
     </main>
-    <form id="Contact Me" action="">
-        <label for="">نام: </label>
-        <input type="text"><br>
-        <label for="">ایمیل: </label>
-        <input type="email" name="" id=""><br>
-        <label for="">جنسیت</label>
-        <input type="radio">خانم
-        <input type="radio">آقا<br>
-        <label for="">شهر: </label>
-        <select name="" id="">
+    <form id="Contact-Me" action="">
+        <label for="full-name">نام: </label>
+        <input id="full-name" type="text"><br>
+        <label for="email">ایمیل: </label>
+        <input id="email" type="email" name="" id=""><br>
+        <label for="Gender">جنسیت</label>
+        <input id="Gender" type="radio">خانم
+        <input id="Gender" type="radio">آقا<br>
+        <label for="city">شهر: </label>
+        <select name="" id="city">
             <option value="">تهران</option>
             <option value="">شیراز</option>
             <option value="">رشت</option>
         </select>
         <br>
-        <label for="">علاقه‌مندی‌ها: </label>
-        <input type="checkbox" name="" id="">برنامه نویسی
-        <input type="checkbox" name="" id="">فوتبال
-        <input type="checkbox" name="" id="">موسیقی<br>
+        <label for="favorite">علاقه‌مندی‌ها: </label>
+        <input id="favorite" type="checkbox" name="" id="">برنامه نویسی
+        <input id="favorite" type="checkbox" name="" id="">فوتبال
+        <input id="favorite" type="checkbox" name="" id="">موسیقی<br>
         <label for="">پیام</label>
         <textarea  name="" id="" style="width: 500px; height: 200px">هرچه دل تنگت میخواهد بگو</textarea><br>
         <input type="submit" name="" id="" value="ارسال پیام" >
         <hr>
-
-
     </form>
   </body>
 </html>
